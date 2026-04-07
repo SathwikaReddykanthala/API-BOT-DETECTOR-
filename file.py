@@ -8,7 +8,7 @@ from collections import Counter
 # ===============================
 # Load Model and Encoder
 # ===============================
-model = joblib.load("RFmodel.pkl")
+model = joblib.load("rfmodel.pkl")
 ohe = joblib.load("ohe.pkl")
 
 # ===============================
