@@ -21,10 +21,10 @@ How It Works
 >> A rule-based system performs Threat Analysis
 
 📁 project-folder
-│── app.py / file.py
-│── rfmodel.pkl
-│── ohe.pkl
-│── requirements.txt
+        │── app.py / file.py
+        │── rfmodel.pkl
+        │── ohe.pkl
+        │── requirements.txt
 
 Features Used
     HTTP Method
@@ -43,13 +43,13 @@ Features Used
     Request Pattern Entropy
 
 Output
-🟢 HUMAN TRAFFIC → Safe
-⚠️ BOT DETECTED → Suspicious
-🚨 Critical Bot Activity → Block immediately
+    🟢 HUMAN TRAFFIC → Safe
+    ⚠️ BOT DETECTED → Suspicious
+    🚨 Critical Bot Activity → Block immediately
 
 Includes:
 
-Prediction label
-Confidence score
-Threat level
-Recommended action
+    Prediction label
+    Confidence score
+    Threat level
+    Recommended action
